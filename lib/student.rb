@@ -24,6 +24,11 @@ class Student
     # remember each row should be a new instance of the Student class
   end
 
+
+  def .all_students_in_grade_9
+    
+  end
+  
   def self.find_by_name(name)
     sql = <<-SQL
       SELECT *
