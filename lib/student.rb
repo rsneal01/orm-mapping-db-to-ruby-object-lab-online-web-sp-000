@@ -60,7 +60,6 @@ class Student
     DB[:conn].execute(sql).map do |row|
       self.new_from_db(row)
     end.first(number_of_students)
-    
   end
   
   def self.find_by_name(name)
