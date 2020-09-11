@@ -49,6 +49,8 @@ class Student
     end
   end
   
+  def 
+  
   def self.find_by_name(name)
     sql = <<-SQL
       SELECT *
