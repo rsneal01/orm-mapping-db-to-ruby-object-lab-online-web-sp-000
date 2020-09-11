@@ -62,6 +62,8 @@ class Student
     end.first(number_of_students)
   end
   
+  def self.first_student_in_grade_10
+  
   def self.find_by_name(name)
     sql = <<-SQL
       SELECT *
